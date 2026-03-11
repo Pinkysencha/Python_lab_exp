@@ -1,0 +1,17 @@
+1. Start the program.
+2. Define a function `calc(a, b)`.
+3. Inside the function, calculate:
+   * Addition of `a` and `b`
+   * Subtraction of `a` and `b`
+   * Multiplication of `a` and `b`
+   * Division of `a` and `b`
+4. Return all four results **as a tuple**.
+5. Enter two numbers `a` and `b` from the user.
+6. Call the function `calc(a, b)` and store the returned tuple in `result`.
+7. Display the **addition result** using `result[0]`.
+8. Display the **subtraction result** using `result[1]`.
+9. Display the **multiplication result** using `result[2]`.
+10. Display the **division result** using `result[3]`.
+11. Stop the program.
+
+
