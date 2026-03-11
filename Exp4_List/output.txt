@@ -1,0 +1,15 @@
+Original Marks: [75, 80, 65, 90]
+After append: [75, 80, 65, 90, 85]
+After insert: [75, 80, 70, 65, 90, 85]
+After extend: [75, 80, 70, 65, 90, 85, 88, 92]
+Copied Marks: [75, 80, 70, 65, 90, 85, 88, 92]
+Student Marks:
+75
+80
+70
+65
+90
+85
+88
+92
+After using clear: [75, 80, 70, 65, 90, 85, 88, 92]
