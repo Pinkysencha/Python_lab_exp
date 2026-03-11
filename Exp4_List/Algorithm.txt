@@ -1,0 +1,12 @@
+1. Start the program.
+2. Create a list called `marks` with student marks **[75, 80, 65, 90]**.
+3. Display the **original marks list**.
+4. Add a new mark **85** to the list using **append()** and display the list.
+5. Insert the mark **70 at position 2** using **insert()** and display the list.
+6. Add more marks **88 and 92** using **extend()** and display the list.
+7. Make a **copy of the marks list** using **copy()** and display the copied list.
+8. Print all student marks using a **for loop**.
+9. Use the **clear()** function to remove all elements from the list.
+10. Display the list after clearing it.
+11. Stop the program.
+
