@@ -1,0 +1,6 @@
+Enter a : 23
+Enter b : 55
+Addition:  78
+Subtraction:  -32
+Multiplication:  1265
+Divison:  0.41818181818181815
