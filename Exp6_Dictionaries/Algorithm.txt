@@ -1,0 +1,11 @@
+1. Start the program.
+2. Create a dictionary `emp` with employee IDs as **keys** and salaries as **values**.
+3. Display the **original dictionary**.
+4. Display all **employee IDs** using the `keys()` function.
+5. Display all **salaries** using the `values()` function.
+6. Create a **copy of the dictionary** using `copy()` and display it.
+7. Add a new employee **E107 with salary 40000** using `update()` and display the dictionary.
+8. Remove employee **E105** using `pop()` and display the dictionary.
+9. Delete employee **E104** using `del` statement and display the dictionary.
+10. Display the **final dictionary**.
+11. Stop the program.
