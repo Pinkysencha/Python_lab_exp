@@ -1,0 +1,26 @@
+1. Start
+2. Input value of **a** from the user
+3. Input value of **b** from the user
+4. Display **"Equation / Assignment Operators"**
+5. Check and print the result of these identities:
+   * (a + b)² = a² + 2ab + b²
+   * (a − b)² = a² − 2ab + b²
+   * (a + b)(a + b) = 2(a² − b²)
+   * (a + b)(a − b) = a² − b²
+   * a³ + b³ = (a + b)(a² − ab + b²)
+6. Display **"Bitwise Operations"**
+7. Check and print the result of these bitwise relations:
+   * a | b = (a ^ b) + (a & b)
+   * a ^ (a & b) = (a | b) ^ b
+   * b ^ (a & b) = (a | b) ^ a
+   * (a & b) ^ (a | b) = a ^ b
+8. Display **"Addition"**
+9. Check and print:
+   * a + b = (a | b) + (a & b)
+   * a + b = (a ^ b) + 2(a & b)
+10. Display **"Subtraction"**
+11. Check and print:
+* a − b = (a ^ (a & b)) − ((a | b) ^ a)
+* a − b = (a & (a ^ b)) − (b ^ (a & b))
+12. Stop
+
