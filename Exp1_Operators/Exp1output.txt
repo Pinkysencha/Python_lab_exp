@@ -1,0 +1,23 @@
+Enter the value of a: 2
+Enter the value of b: 4
+
+Equation / Assignment Operators:
+True
+True
+False
+True
+True
+
+Bitwise Operations:
+True
+True
+True
+True
+
+Addition:
+True
+True
+
+Subtraction:
+True
+True
