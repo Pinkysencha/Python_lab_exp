@@ -1,0 +1,21 @@
+output: 
+Enter the number of players: 2
+
+Player 1
+Enter the runs scored: 148
+Enter the number of balls faced: 50
+Enter the number of 4s scored: 6
+Enter the number of 6s scored: 16
+Enter the number of wickets taken: 4
+Enter the number of runs conceded: 29
+Enter the number of overs bowled: 2
+Enter the number of catches taken: 3
+
+Strike Rate: 296.0
+Economy: 14.5
+Batting: Excellent Batter
+Bowling: Average Bowler
+Fielding: Outstanding Fielder
+Overall: Needs Improvement
+
+Player 2
