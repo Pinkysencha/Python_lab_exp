@@ -1,0 +1,16 @@
+1. Start the program.
+2. Enter the number of players `n`.
+3. Repeat the following steps for each player from 1 to `n`.
+4. Enter player details: runs scored, balls faced, number of 4s, number of 6s, wickets taken, runs conceded, overs bowled, and catches taken.
+5. Calculate **strike rate** using the formula:
+   Strike Rate = (runs / balls) × 100.
+6. Calculate **economy rate** using the formula:
+   Economy = runs conceded / overs.
+7. Check the **batting performance** based on runs and strike rate and assign a category (Excellent, Good, Average, or Poor).
+8. Check the **bowling performance** based on wickets and economy and assign a category.
+9. Check the **fielding performance** based on the number of catches.
+10. Decide the **overall performance** using batting and bowling results.
+11. Display strike rate, economy, batting performance, bowling performance, fielding performance, and overall performance.
+12. Repeat the process for all players.
+13. Stop the program.
+
