@@ -1,0 +1,12 @@
+String Operations:
+
+1. Length: 18
+2. Capitalize: Python programming
+3. Casefold: python programming
+4. Starts with:  False
+5. Split: ['Python', 'Programming']
+6. Replace: Python Programming
+7. Lower: python programming
+8. Upper: PYTHON PROGRAMMING
+9. Title: Python Programming
+10. Swapcase: pYTHON pROGRAMMING
