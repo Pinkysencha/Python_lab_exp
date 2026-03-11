@@ -1,0 +1,15 @@
+1. Start the program.
+2. Assign a string value **"Python Programming"** to variable `s`.
+3. Display the heading **String Operations**.
+4. Find and display the **length of the string** using `len()` function.
+5. Convert the string so the **first letter becomes capital** using `capitalize()` and display it.
+6. Convert the string to **case-insensitive lowercase** using `casefold()` and display it.
+7. Check whether the string **starts with a space** using `startswith()` and display the result.
+8. **Split the string into words** using `split()` and display it.
+9. **Replace a word in the string** using `replace()` and display the result.
+10. Convert the string to **lowercase** using `lower()` and display it.
+11. Convert the string to **uppercase** using `upper()` and display it.
+12. Convert the string into **title format** using `title()` and display it.
+13. **Swap the case** of each letter using `swapcase()` and display it.
+14. Stop the program.
+
