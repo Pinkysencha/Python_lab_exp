@@ -1,0 +1,22 @@
+re.split()
+['Temp', ' Humidity', ' Pressure']
+
+re.sub()
+The network will upgrade from 6G soon
+
+re.match()
+Valid IoT Device ID
+
+re.search()
+5G Network Found
+
+re.findall()
+['24', '60', '1012']
+
+re.finditer()
+Match: cat Start: 0 End: 3
+Match: cat Start: 12 End: 15
+
+Date Validation (DD/MM/YYYY)
+Enter date (DD/MM/YYYY): 12.5.16
+Invalid Date Format
