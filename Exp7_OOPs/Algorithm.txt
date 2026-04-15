@@ -1,0 +1,68 @@
+### class with Methods and Object
+
+1. Start
+2. Define class `Student`
+3. Create constructor `__init__` to initialize `name`
+4. Define method `display()` to print name
+5. Create object `s1` and pass name
+6. Call `display()` using object
+7. Stop
+
+
+
+
+### Class with Methods (without object)
+
+1. Start
+2. Define class `Demo`
+3. Define method `show()`
+4. (No object created, so method not executed)
+5. Stop
+
+
+### single Inheritance
+
+1. Start
+2. Define parent class `Animal` with method `sound()`
+3. Define child class `Dog` inheriting `Animal`
+4. Create object of `Dog`
+5. Call inherited method `sound()`
+6. Display output
+7. Stop
+
+###Multiple Inheritance
+
+1. Start
+2. Define class `Animal` with method `eat()`
+3. Define class `Skills` with method `run()`
+4. Define class `Dog` inheriting from both classes
+5. Create object of `Dog`
+6. Call `eat()` and `run()`
+7. Display output
+8. Stop
+
+
+
+### Multilevel Inheritance
+
+1. Start
+2. Define class `Grandparent` with method `house()`
+3. Define class `Parent` inheriting `Grandparent`
+4. Define class `Child` inheriting `Parent`
+5. Create object of `Child`
+6. Call `house()`, `car()`, and `bike()`
+7. Display output
+8. Stop
+
+
+
+### Hierarchical Inheritance
+
+1. Start
+2. Define class `Person` with method `skills()`
+3. Define class `Student` inheriting `Person`
+4. Define class `Employee` inheriting `Person`
+5. Create objects of `Student` and `Employee`
+6. Call `skills()` using both objects
+7. Display output
+8. Stop
