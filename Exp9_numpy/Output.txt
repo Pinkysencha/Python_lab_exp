@@ -1,0 +1,19 @@
+ NumPy Operations
+Array: [ 10  20  30  40  50  60  70  80  90 100]
+Mean: 55.0
+Sum: 550
+Max: 100
+
+pandas Operation
+DataFrame:
+      Flowers      Fruits Toothpaste  Crackers      Games  Marks  Age  Height  Weight        City
+0       Rose       Apple    Colgate      Lays      Chess     85   20     160      55     Chennai
+1       Lily      Banana    Closeup   Kurkure    Cricket     90   21     165      60       Delhi
+2      Tulip       Mango  Pepsodent     Bingo   Football     78   19     170      65      Mumbai
+3    Jasmine      Orange  Sensodyne  Pringles     Tennis     88   22     155      50     Kolkata
+4      Lotus      Grapes    Colgate      Lays     Hockey     92   20     168      58   Bangalore
+5  Sunflower   Pineapple    Closeup   Kurkure  Badminton     76   23     172      70   Hyderabad
+6      Daisy      Cherry  Pepsodent     Bingo    Kabaddi     81   21     158      52        Pune
+7     Orchid      Papaya  Sensodyne  Pringles     Carrom     95   20     166      61      Jaipur
+8   Lavender       Guava    Colgate      Lays       Ludo     89   22     169      63         Goa
+9   Marigold  Watermelon    Closeup   Kurkure   Baseball     84   19     162      57  Coimbatore
