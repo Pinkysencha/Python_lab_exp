@@ -1,0 +1,17 @@
+Student Name: Pinky
+
+Single Inheritance
+Animal makes sound
+
+Multiple Inheritance
+Animal eats food
+Can run fast
+
+Multilevel Inheritance
+Owns a house
+Owns a car
+Owns a bike
+
+Hierarchical Inheritance
+Has basic skills
+Has basic skills
