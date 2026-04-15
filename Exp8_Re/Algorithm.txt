@@ -1,0 +1,79 @@
+###re.split()
+
+1. Start
+2. Import `re` module
+3. Define string with separators
+4. Apply `re.split(pattern, string)`
+5. Store result in list
+6. Print list
+7. Stop
+
+
+### re.sub()
+
+1. Start
+2. Import `re`
+3. Define original string
+4. Apply `re.sub(old, new, string)`
+5. Store modified string
+6. Print result
+7. Stop
+
+### re.match()
+
+1. Start
+2. Import `re`
+3. Define string
+4. Apply `re.match(pattern, string)`
+5. If match found → print valid
+6. Else → print invalid
+7. Stop
+
+
+
+### re.search()
+
+1. Start
+2. Import `re`
+3. Define string
+4. Apply `re.search(pattern, string)`
+5. If found → print found
+6. Else → print not found
+7. Stop
+
+-
+
+### re.findall()
+
+1. Start
+2. Import `re`
+3. Define string
+4. Apply `re.findall(pattern, string)`
+5. Store all matches in list
+6. Print list
+7. Stop
+
+
+### re.finditer()
+
+1. Start
+2. Import `re`
+3. Define string and pattern
+4. Apply `re.finditer(pattern, string)`
+5. Loop through matches
+6. Print match, start, end position
+7. Stop
+
+
+### re.fullmatch()
+
+1. Start
+2. Import `re`
+3. Take input string (date)
+4. Define pattern
+5. Apply `re.fullmatch(pattern, string)`
+6. If match → valid format
+7. Else → invalid format
+8. Stop
+
+if u want **1-page revision sheet**, say 👍
