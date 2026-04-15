@@ -1,0 +1,24 @@
+NumPy Operations
+
+1. Start
+2. Import `numpy` library
+3. Create array using `np.array()`
+4. Store values in array
+5. Display array
+6. Calculate mean using `np.mean()`
+7. Calculate sum using `np.sum()`
+8. Find maximum using `np.max()`
+9. Display all results
+10. Stop
+
+
+Pandas DataFrame
+
+1. Start
+2. Import `pandas` library
+3. Create dictionary with data (Flowers, Fruits, etc.)
+4. Pass dictionary into `pd.DataFrame()`
+5. Store result in variable `df`
+6. Display DataFrame using `print()`
+7. Stop
+
