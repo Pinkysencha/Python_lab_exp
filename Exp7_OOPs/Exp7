@@ -1,0 +1,80 @@
+#Class with methods and object
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print("Student Name:", self.name)
+s1 = Student("Pinky")
+s1.display()
+
+
+#Class with methods, without object
+class Demo:
+    def show(self):
+        print("This is a method inside class Demo")
+
+
+# Single Inheritance
+class Animal:
+    def sound(self):
+        print("Animal makes sound")
+
+class Dog(Animal):
+    pass
+
+print("\n---- Single Inheritance ----")
+d = Dog()
+d.sound()
+
+#Multiple Inheritance (Animal + Skills)
+class Animal:
+    def eat(self):
+        print("Animal eats food")
+
+class Skills:
+    def run(self):
+        print("Can run fast")
+
+class Dog(Animal, Skills):
+    pass
+
+print("\nMultiple Inheritance")
+d = Dog()
+d.eat()
+d.run()
+
+
+#Multilevel Inheritance 
+class Grandparent:
+    def house(self):
+        print("Owns a house")
+
+class Parent(Grandparent):
+    def car(self):
+        print("Owns a car")
+
+class Child(Parent):
+    def bike(self):
+        print("Owns a bike")
+
+print("\nMultilevel Inheritance")
+c = Child()
+c.house()
+c.car()
+c.bike()
+
+
+#Hierarchical Inheritance
+class Person:
+    def skills(self):
+        print("Has basic skills")
+class Student(Person):
+    pass
+class Employee(Person):
+    pass
+print("\nHierarchical Inheritance")
+s = Student()
+e = Employee()
+s.skills()
+e.skills()
