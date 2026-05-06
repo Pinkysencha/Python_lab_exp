@@ -1,58 +1,34 @@
-# Import libraries
-import pandas as pd
 import matplotlib.pyplot as plt
-    
-# Load dataset
-data = pd.read_csv("Statistics_activity_2.xlsx")   # replace with your file name
+import seaborn as sns
+import numpy as np
+import pandas as pd
 
-# Explore data
-print("First 5 rows:")
-print(data.head())
+sns.set_theme(style="whitegrid")
 
-print("\nDataset Info:")
-print(data.info())
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [25, 40, 30, 55, 20]
+time = np.arange(10)
+growth = np.cumsum(np.random.randn(10))
+x_rand = np.random.randn(50)
+y_rand = np.random.randn(50)
 
-print("\nStatistical Summary:")
-print(data.describe())
+fig, axes = plt.subplots(2, 2, figsize=(14, 10))
 
-# Clean data
-data = data.dropna()            # remove missing values
-data = data.drop_duplicates()  # remove duplicate rows
+# A. Line Plot
+sns.lineplot(x=time, y=growth, ax=axes[0, 0], marker='o', color='b')
+axes[0, 0].set_title('Line Plot: Growth Over Time')
 
-# Select variables
-x = data.iloc[:, 0]   # first column
-y = data.iloc[:, 1]   # second column
+# B. Bar Chart
+sns.barplot(x=categories, y=values, ax=axes[0, 1], palette='viridis')
+axes[0, 1].set_title('Bar Chart: Category Comparison')
 
-# --------- Visualizations ---------
+# C. Scatter Plot
+sns.scatterplot(x=x_rand, y=y_rand, ax=axes[1, 0], color='r', s=100)
+axes[1, 0].set_title('Scatter Plot: Correlation Check')
 
-# Line Plot
-plt.figure()
-plt.plot(x, y)
-plt.title("Line Chart")
-plt.xlabel("X values")
-plt.ylabel("Y values")
-plt.show()
+# D. Histogram
+sns.histplot(np.random.normal(0, 1, 1000), kde=True, ax=axes[1, 1], color='purple')
+axes[1, 1].set_title('Histogram: Normal Distribution with KDE')
 
-# Bar Chart
-plt.figure()
-plt.bar(x, y)
-plt.title("Bar Chart")
-plt.xlabel("X values")
-plt.ylabel("Y values")
-plt.show()
-
-# Histogram
-plt.figure()
-plt.hist(x)
-plt.title("Histogram")
-plt.xlabel("Values")
-plt.ylabel("Frequency")
-plt.show()
-
-# Scatter Plot
-plt.figure()
-plt.scatter(x, y)
-plt.title("Scatter Plot")
-plt.xlabel("X values")
-plt.ylabel("Y values")
-plt.show()
+# Final adjustments
+plt.tight_layout()
