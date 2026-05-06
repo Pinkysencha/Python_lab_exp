@@ -1,58 +1,43 @@
-# Import libraries
-import pandas as pd
 import matplotlib.pyplot as plt
-    
-# Load dataset
-data = pd.read_csv("Statistics_activity_2.xlsx")   # replace with your file name
+import numpy as np
 
-# Explore data
-print("First 5 rows:")
-print(data.head())
+#1. line plot
+x = np.arange(0, 10, 1)
+y = x ** 2
 
-print("\nDataset Info:")
-print(data.info())
-
-print("\nStatistical Summary:")
-print(data.describe())
-
-# Clean data
-data = data.dropna()            # remove missing values
-data = data.drop_duplicates()  # remove duplicate rows
-
-# Select variables
-x = data.iloc[:, 0]   # first column
-y = data.iloc[:, 1]   # second column
-
-# --------- Visualizations ---------
-
-# Line Plot
-plt.figure()
-plt.plot(x, y)
-plt.title("Line Chart")
-plt.xlabel("X values")
-plt.ylabel("Y values")
+plt.plot(x, y, color="blue", marker="o")
+plt.title("Matplotlib Line Plot")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
 plt.show()
 
-# Bar Chart
-plt.figure()
-plt.bar(x, y)
-plt.title("Bar Chart")
-plt.xlabel("X values")
-plt.ylabel("Y values")
+
+#2. bar chart
+
+categories = ["A", "B", "C"]
+values = [10, 20, 15]
+
+plt.bar(categories, values, color=["red", "green", "blue"])
+plt.title("Matplotlib Bar Chart")
 plt.show()
 
-# Histogram
-plt.figure()
-plt.hist(x)
-plt.title("Histogram")
-plt.xlabel("Values")
-plt.ylabel("Frequency")
+
+#3. histogram
+data = np.random.randn(1000)
+
+plt.hist(data, bins=20, color="purple", edgecolor="black")
+plt.title("Matplotlib Histogram")
 plt.show()
 
-# Scatter Plot
-plt.figure()
-plt.scatter(x, y)
-plt.title("Scatter Plot")
-plt.xlabel("X values")
-plt.ylabel("Y values")
+
+#4. scatter plot
+x = np.random.rand(50)
+y = np.random.rand(50)
+
+plt.scatter(x, y, color="orange")
+plt.title("Matplotlib Scatter Plot")
 plt.show()
+
+
+
+
