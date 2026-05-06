@@ -1,0 +1,27 @@
+algorithm:
+
+1. Start
+2. Import libraries
+   > Import Matplotlib for plotting
+   > Import Seaborn for advanced graphs
+   > Import NumPy and Pandas for data handling
+3. Set style
+   > Apply Seaborn whitegrid theme
+4. Create data
+   > Define categories and values for bar chart
+   > Create time values for line plot
+   > Generate random data for growth
+   > Generate random x and y values for scatter plot
+5. Create figure layout
+   > Create 2x2 subplot grid for multiple graphs
+6. Draw Line Plot
+   > Plot growth over time
+7. Draw Bar Chart
+   > Compare values of different categories
+8. Draw Scatter Plot
+   > Show relationship between random x and y values
+9. Draw Histogram
+   > Show distribution of random normal data with KDE curve
+10. Adjust layout
+> Apply tight layout to avoid overlap
+11. End.
