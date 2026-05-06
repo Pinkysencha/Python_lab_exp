@@ -1,58 +1,31 @@
-# Import libraries
 import pandas as pd
-import matplotlib.pyplot as plt
-    
-# Load dataset
-data = pd.read_csv("Statistics_activity_2.xlsx")   # replace with your file name
+import numpy as np
 
-# Explore data
-print("First 5 rows:")
-print(data.head())
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Alice', np.nan],
+    'Age': [25, 30, np.nan, 45, 25, 35],
+    'Salary': [50000, 60000, 70000, 80000, 50000, 1200000],
+    'Joined_Date': ['2020-01-01', '2021-06-15', '2019-11-20', '2022-03-05', '2020-01-01', '2023-01-10']
+}
+df = pd.DataFrame(data)
 
-print("\nDataset Info:")
-print(data.info())
+df = df.drop_duplicates()
 
-print("\nStatistical Summary:")
-print(data.describe())
+df['Age'] = df['Age'].fillna(df['Age'].mean())
+df['Name'] = df['Name'].fillna('Unknown')
 
-# Clean data
-data = data.dropna()            # remove missing values
-data = data.drop_duplicates()  # remove duplicate rows
+df['Joined_Date'] = pd.to_datetime(df['Joined_Date'])
 
-# Select variables
-x = data.iloc[:, 0]   # first column
-y = data.iloc[:, 1]   # second column
+df['Salary'] = df['Salary'].clip(upper=150000)
 
-# --------- Visualizations ---------
+print("Data Overview ")
+print(df.info())
 
-# Line Plot
-plt.figure()
-plt.plot(x, y)
-plt.title("Line Chart")
-plt.xlabel("X values")
-plt.ylabel("Y values")
-plt.show()
+print("\n Summary Statistics")
+print(df.describe())
 
-# Bar Chart
-plt.figure()
-plt.bar(x, y)
-plt.title("Bar Chart")
-plt.xlabel("X values")
-plt.ylabel("Y values")
-plt.show()
+print("\n Missing Values Count ")
+print(df.isnull().sum())
 
-# Histogram
-plt.figure()
-plt.hist(x)
-plt.title("Histogram")
-plt.xlabel("Values")
-plt.ylabel("Frequency")
-plt.show()
-
-# Scatter Plot
-plt.figure()
-plt.scatter(x, y)
-plt.title("Scatter Plot")
-plt.xlabel("X values")
-plt.ylabel("Y values")
-plt.show()
+print("\n Grouped Analysis")
+print(df.groupby('Name')['Salary'].mean())
